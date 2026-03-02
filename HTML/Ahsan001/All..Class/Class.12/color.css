@@ -1,0 +1,104 @@
+#Ahsan{
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(155deg,
+    hsl(240deg 100% 43%) 0%,
+    hsl(4deg 100% 60%) 28%,
+    hsl(42deg 82% 51%) 49%,
+    hsl(8deg 40% 22%) 66%,
+    hsl(358deg 37% 26%) 83%,
+    hsl(0deg 60% 60%) 100% ); */
+    background-image: linear-gradient(
+    90deg,
+    hsl(0deg 0% 2%) 0%,
+    hsl(60deg 2% 10%) 10%,
+    hsl(60deg 2% 14%) 19%,
+    hsl(60deg 2% 17%) 28%,
+    hsl(60deg 2% 19%) 36%,
+    hsl(22deg 3% 26%) 44%,
+    hsl(9deg 3% 33%) 51%,
+    hsl(4deg 3% 39%) 57%,
+    hsl(1deg 3% 43%) 64%,
+    hsl(0deg 3% 48%) 69%,
+    hsl(0deg 2% 53%) 75%,
+    hsl(0deg 2% 57%) 79%,
+    hsl(0deg 2% 61%) 84%,
+    hsl(0deg 2% 66%) 88%,
+    hsl(0deg 2% 74%) 91%,
+    hsl(0deg 2% 82%) 95%,
+    hsl(0deg 3% 88%) 97%,
+    hsl(0deg 4% 95%) 100%
+  );
+    width: auto;
+    height: auto;
+    
+}    
+
+body,h1{
+ border: 0.1px solid black;
+ height:2;
+}
+p{
+ color: rgba(7, 0, 102, 0.904); 
+ margin:0 auto;
+ padding: 0 auto;
+ border: 1px  solid black;
+ border-radius: 5px; 
+}
+
+
+ 
+
+h1{
+    width: 70dvw;
+    text-align:center ;
+    margin: 40px auto;
+    background: #2A7B9B;
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1)
+ 47%, rgba(148, 187, 233, 1) 79%);
+
+
+ border: 6px inset #1C6EA4;
+border-radius: 19px;
+
+-webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px 
+#4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 10px 0px 34px 16px rgba(0,0,0,0); 
+box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px
+ #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 10px 0px 34px 16px rgba(0,0,0,0);
+
+    
+}
+
+p.lolo {
+
+ background-color: rgb(238,62,128);}
+ p.one {
+ background-color: rgb(244,90,139);}
+ p.two {
+ background-color: rgb(243,106,152);}
+ p.three {
+ background-color: rgb(244,123,166);}
+ p.four {
+ background-color: rgb(245,140,178);}
+ p.five {
+ background-color: rgb(246,159,192);}
+ p.six {
+ background-color: rgb(245,176,204);}
+ p.seven {
+ background-color: rgb(0,187,136);}
+ p.eight {
+ background-color: rgb(140,202,242);}
+ p.nine {
+ background-color: rgb(114,193,240);}
+
+ p.ten {
+ background-color: rgb(84,182,237);}
+ p.eleven {
+ background-color: rgb(48,170,233);}
+ p.twelve {
+ background-color: rgb(0,160,230);}
+ p.thirteen {
+ background-color: rgb(0,149,226);}
+ p.fourteen {
+ background-color: rgb(0,136,221);}

@@ -1,0 +1,11 @@
+body,p,h1{
+ border: 1px solid black;
+ height:2;
+}
+h1{
+    text-align: center;
+}
+
+p.lolo{
+     background-color: rgb(238,62,128);
+}
