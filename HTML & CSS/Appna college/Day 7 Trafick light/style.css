@@ -1,0 +1,31 @@
+/* *{
+    padding:0;
+    height: 0%;
+    width:0%;
+} */
+#ahsan{
+    border: 2px solid rgb(251, 248, 248);
+    height: 200px;
+    width: 70px;
+    margin:auto;
+    border-radius: 3%;
+    background-color: black;
+    
+}
+.div{
+ 
+ height: 50px;
+ width: 50px;
+ border-radius:50%;
+ border: 2px solid rgb(253, 247, 247);
+ margin: 10px ;
+}
+#red{
+    background-color: #f30808;
+}
+#yallow{
+    background-color: #f3e308;
+}
+#green{
+    background-color: #2bf308;
+}
