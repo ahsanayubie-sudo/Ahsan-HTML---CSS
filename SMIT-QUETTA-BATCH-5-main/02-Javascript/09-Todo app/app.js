@@ -15,14 +15,6 @@ function addtask() {
  else {
         alert("Please enter a task");
     }  
-    showTasks() 
+    
 }
 
-function showTasks() {
-    FileList.innerHTML = "";
-    for (let i = 0; i < tasks.length; i++) {
-        FileList.innerHTML += `<li>${tasks[i]} 
-        <button onclick="deleteTask(${i})">Delete</button></li>`;
-        console.log(tasks[i]);
-    }       
-}
