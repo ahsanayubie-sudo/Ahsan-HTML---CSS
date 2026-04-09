@@ -31,24 +31,27 @@
 // btn.addEventListener("click", lowercaseName);
 // 3. Count Characters
 // Given a string, return the number of characters in it.
-//         let number1= document.querySelector("#nameInput");
-//         let btn = document.querySelector("#btn");
+    //     let number1= document.querySelector("#nameInput");
+    //     let btn = document.querySelector("#btn");
         
-//         function lowercaseName(number) {
-//         if(number1 !== ""){
-//             console.log(number1.value.length)
-//             let lengthDiv = document.querySelector(".lengthDiv");
-//             lengthDiv.innerHTML= ""
-//             let length1 = number1.value.length
+    //     function lowercaseName(number) {
+    //     if(number1 !== ""){
+    //         console.log(number1.value.length)
+    //         let lengthDiv = document.querySelector(".lengthDiv");
+    //         lengthDiv.innerHTML= ""
+    //         let length1 = number1.value.length
             
-//             lengthDiv.innerHTML += `<h3>The length of the entered word is = ${length1}</h3>`
+    //         lengthDiv.innerHTML += `<h3>The length of the entered word is = ${length1}</h3>`
 
-//         }
+    //     }
             
-//       }
+    //   }
 //   btn.addEventListener("click", lowercaseName);
     // 4. First Character
 // Write a function that returns the first character of a string using charAt().
+   let name12 = document.querySelector("#number12")
+   let btn12 = document.querySelector("#btn")
+   
 // 5. Last Character
 // Return the last character of any string using .charAt() and .length.
 // 6. Find Position of Word
@@ -131,6 +134,3 @@
 // 40. Detect Palindromes in Sentence
 // Return all palindromic words in a sentence (e.g., "madam is at civic center" →
 // ["madam", "civic"]).
-
-
-// Previous Work Line 34
