@@ -1,22 +1,56 @@
+/* section{
+  margin-top:100px;
+} */
 Div {
-  width: 200px;
-  height: 50px;
+  width: 250px;
+  height: 80px;
   text-align: center;
   background-color: aquamarine;
   border: 2px solid black;
-  margin:10px;
+  margin:10px auto;
+  /* Shadow */
+  /* box-shadow: 4px 4px yellow ; */
+      /* If you want to a imeg in your Div*/
+      background-image:url() ;
+      background-size: contain,auto,cover;
 }
-div:nth-of-type(2n){
-    background-color: rgb(194, 133, 58);
-
-
+  
+/* div:nth-of-type(2n){
+    background-color: rgb(0, 247, 95);
 }
-div:nth-of-type(4n){
-    background-color: rgb(194, 133, 58);
-}    
+div:nth-of-type(3n){
+    background-color: rgb(146, 14, 14);
+}  
 
-/* Transform---rotate */
+  Transform---rotate 
 
-.div1{
+#div1{
+   transform: rotate(45deg);
+} 
+
+  transform-scale 
+ #div2{
+  transform: scale(0.5); 
+}
     
-}
+   transfrom-translate 
+
+ #div3{
+  transform: translatex(100px); 
+} 
+ 
+
+  transfrom-skew 
+
+#div4{
+  transform: skew(30deg);
+}   
+
+ Tranfrom-All-froms-in-one 
+
+ #div5{
+  transform:scale(1) skew(50deg);
+ }   */
+
+
+  /* box-shadow*/
