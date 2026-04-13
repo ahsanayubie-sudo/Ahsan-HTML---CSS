@@ -1,0 +1,42 @@
+.Outer {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(219, 127, 5);
+    border-radius: 100px;
+     position:absolute;
+    top: 25px;
+    left: 65px ;
+}
+.mouth {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(245, 5, 5);
+    border-radius: 0 0 30px 30px;
+    position:absolute;
+    top: 125px;
+    left: 65px ;
+}
+.Eye1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+     position:absolute;
+    top: 50px;
+    left: 55px ;
+}
+.Eye2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+     position:absolute;
+    top: 50px;
+    left: 130px ; 
+}
+.Outer:hover{
+ box-shadow: 2px 4px 19px black ;
+ transform: scale(1.1); 
+ transition: 1s;
+
+}
