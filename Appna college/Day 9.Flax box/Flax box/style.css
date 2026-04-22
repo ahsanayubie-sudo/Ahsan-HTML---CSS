@@ -1,0 +1,39 @@
+.Ahsan{
+    height: 300px;
+    width: 80%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid black ;
+    display: flex;
+    /* you can change in row and colome */
+    flex-direction: row-reverse ;
+    /* justify-content: center; */
+    /* justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+           
+    
+          /*  Warp  */
+   
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    
+    
+        /*justify-content*/
+    
+     /* justify-self: end;
+    justify-self: center;
+    justify-self: start; */
+}
+h1{
+    text-align: center;
+    border: 2px solid black;
+}
+.Ahsan div {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
