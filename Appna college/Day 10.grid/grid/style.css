@@ -5,12 +5,21 @@
     display: grid;
     grid-template-columns:repeat(5,1fr);
     grid-template-rows:repeat(5,1fr);
+    grid-gap: 5px;
+    
 
 }
 .item{
-   width: 60px;
-   height: 30;
+   /* width: 60px;
+   height: 30; */
    background-color: brown;
    justify-content: center;
    border: 2px solid black;
 }
+/* .one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column:1/5;
+} */
