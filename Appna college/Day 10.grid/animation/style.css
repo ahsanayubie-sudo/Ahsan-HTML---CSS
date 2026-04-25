@@ -4,9 +4,9 @@
     background-color: blueviolet;
     /* for your name */
     animation-name: Ahsan;
-   /* duration of sacends  */
+    /* duration of sacends  */
     animation-duration: 2s;
-   /* This is the timing value */
+    /* This is the timing value */
     animation-timing-function: ease-in; 
     /* for time delay */
     animation-delay: 0s;
@@ -14,11 +14,13 @@
     animation-duration: normal;
     /* this is how many times the animation runs */
     animation-iteration-count: 3;
+    /* we can put all the condition in one */
+    animation:Ahsan 3s ease-in 0s infinite normal ;
 
 }
 /*  End in this you type your changes in the animation */
-@keyframes Ahsan{
-    from{
+ @keyframes Ahsan{
+    /* from{
         background-color: rgb(189, 119, 14);
         font-size: 20px;
         width: 100px;
@@ -27,6 +29,28 @@
         background-color: aqua;
         font-size: 50px;
         width: 600px;
-    }
+    } */
+    
+    /* The alternetive of From to to */
+    /* You can ues 0% >> 50% >> 100%   */
+     0%{
+         background-color: green;
+        }
 
-}
+ 
+        50%{
+         background-color:red;
+        }
+     100% {
+            background-color: rgb(189, 119, 14);
+         }
+        
+
+       
+
+
+    } 
+     
+
+ 
+    
