@@ -1,0 +1,21 @@
+div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+
+}
+#Ahsan1{
+    /* if the Z index value is static or difult youcan not change thr =e index value  */
+    /* if the z index value is positive it gos upper on the uther divs */
+    position: relative;
+    z-index: 1;
+}
+#Ahsan2{
+  background-color: blueviolet;
+  position: relative;
+  bottom: 50px;
+}
+#Ahsan3{
+  background-color: rgb(138, 16, 16);
+}

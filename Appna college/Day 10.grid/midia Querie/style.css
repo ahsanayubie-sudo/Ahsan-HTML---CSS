@@ -1,0 +1,53 @@
+div{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#Ahsan{
+    height:auto ;
+    width:auto;
+    background-color: antiquewhite;
+}
+/* Ues for your responsivnes of your display */
+@media (width :450px) {
+    div{
+        background-color: black;
+    }
+    
+}
+/* if you want your width is smoler then 400px end your changs */
+@media (max-width:400px) {
+    div{
+        background-color: blue;
+        width: 80px;
+        height: 35px;
+    }
+}
+/* if you want your width is bigger then 400px end your changs */
+@media (min-width:1000px) {
+    div{
+        background-color: rgb(255, 238, 0);
+        width: 200px;
+        height: 100px;
+    }
+}
+
+/* you can set a rang what aver number you want ex 300px end 600px change aplly */
+@media (min-width:200px) and (max-width:300px) {
+    div{
+        background-color: brown;
+        width: 40px;
+        height: 20px;
+    }
+}
+/* you can put condition on landscape*/
+@media (orientation: landscape) {
+    div{
+        background-color: rgba(131, 0, 0, 0.738);
+        color: darkslateblue;
+    }
+    
+}
